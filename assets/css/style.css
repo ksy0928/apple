@@ -13,5 +13,68 @@
 /*header*/
 #header {
 }
-#header-data {
+#header .header-data {
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  padding-top: 20px;
+  color: #a8a8a8;
+}
+#header .header-title {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+#header .header-id {
+  position: absolute;
+  right: 0;
+  bottom: 13px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: Linear-Gradient(
+      149.16deg,
+      #a4a9b5 10.18%,
+      rgba(164, 169, 181, 0) 81.31%
+    ),
+    #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/*mediaquery*/
+@media (max-width: 1020px) {
+  .container {
+    width: 100%;
+  }
+}
+/*bestM*/
+.bestM {
+}
+.bestM .best {
+}
+.bestM .best .best-title {
+}
+.bestM .best .best-title .bt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+  line-height: 1.67;
+}
+.bestM .best .best-title .bt-tit {
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+.bestM .best .best-title .bt-desc {
+  font-size: 22px;
+  font-weight: 300;
+  color: #818181;
+  margin-bottom: 10px;
+}
+.bestM .best picture {
 }
