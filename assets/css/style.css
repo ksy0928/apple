@@ -78,3 +78,75 @@
 }
 .bestM .best picture {
 }
+/*recentM*/
+.recentM {
+  padding: 10px 0;
+  margin-top: 19px;
+  overflow: hidden;
+}
+.recentM h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 16px;
+  padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+  letter-spacing: -0.24px;
+}
+.recentM .recent {
+  float: left;
+  margin-right: 2%;
+  width: 49%;
+}
+.recentM .recent:last-child {
+  margin-right: 0;
+}
+.recentM .recent .recent-title {
+}
+.recentM .recent .recent-title .rt-stit {
+  line-height: 1.9;
+  font-size: 15px;
+}
+.recentM .recent .recent-title .rt-tit {
+  font-size: 15px;
+  color: #908f94;
+  font-weight: 300;
+}
+/*nextM*/
+.nextM {
+}
+.nextM h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin-top: 16px;
+  padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+  letter-spacing: -0.24px;
+}
+.nextM .next-wrap {
+}
+.nextM .next-wrap .next {
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+.nextM .next-wrap .next .next-img {
+  width: 30%;
+}
+.nextM .next-wrap .next .next-tit {
+  width: 70%;
+  margin-left: 10px;
+}
+.nextM .next-wrap .next .next-tit .nt-stit {
+  color: #da5e7c;
+  font-size: 12px;
+}
+.nextM .next-wrap .next .next-tit .nt-tit {
+  font-size: 16px;
+}
+.nextM .next-wrap .next .next-tit .nt-desc {
+  font-size: 13px;
+  color: #a1a1a3;
+  font-weight: 300;
+}
